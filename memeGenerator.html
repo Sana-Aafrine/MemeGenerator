@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="memeGenerator.css" />
+  <title>MemeGenerator</title>
+</head>
+<body>
+<main>
+  <section class="content">
+    <h1>OUTPUTS</h1>
+    <h3>I wanna see a meme</h3>
+    <div id="memes">
+ 
+    </div>
+    <h3>Tell me a joke</h3>
+    <div id="jokes">
+ 
+    </div>
+    <h3>An inspiring quote</h3>
+    <div id="quotes">
+      
+    </div>
+     <h3>Ask me a riddle</h3>
+    <div id="riddle">
+    </div>
+  </section>
+  
+  <section class="sidebar">
+    <h2>Actions</h2>
+    <button onclick="showMeme()">Show a Meme</button>
+    <button onclick="showJoke()">Tell Me a Joke</button>
+    <button onclick="showQuote()">Random Quote</button>
+    <button onclick="showRiddle()">Riddle me</button>
+    <button class="reveal-btn" onclick="revealAnswers()">Reveal Riddle Answer</button>
+    <p class="attribution">Code challenge by <a href="https://www.twitter.com/zg_dev" target="_top">@zg_dev</a></p> 
+  </section>
+</main>
+<script src="memeGenerator.js"></script>
+</body>
+</html>
